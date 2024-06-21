@@ -4,6 +4,7 @@
     "experimentalDecorators": false,
     "useDefineForClassFields": true,
     "moduleResolution": "NodeNext",
-    "module": "NodeNext"
+    "module": "NodeNext",
+    "skipLibCheck": true
   }
 }
