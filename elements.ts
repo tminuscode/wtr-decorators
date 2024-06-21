@@ -6,7 +6,7 @@ export class SimpleGreeting extends LitElement {
     static styles = css`p { color: blue }`;
 
     @property({ type: String })
-    accessor name: string = "Sombeody"
+    name: string = "Sombeody"
 
     render() {
         return html`<p>Hello, ${this.name}!</p>`;
@@ -16,7 +16,7 @@ export class SimpleGreeting extends LitElement {
 @customElement('elaborate-greeting')
 export class ElaborateGreeting extends SimpleGreeting {
     @property({ type: String })
-    accessor salutation: string = "Mr."
+    salutation: string = "Mr."
 
     render() {
         return html`<p>Hello, ${this.salutation} ${this.name}!</p>`;
