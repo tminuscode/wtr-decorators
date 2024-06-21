@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "experimentalDecorators": false,
-    "useDefineForClassFields": true,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
     "moduleResolution": "NodeNext",
     "module": "NodeNext",
     "skipLibCheck": true
